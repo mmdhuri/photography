@@ -2,35 +2,40 @@
   <q-layout view="lHh Lpr lFf">
     <div class="home-header flex justify-between items-center">
       <div>
-        <img src="~src/assets/Site Images/logo.png" width="120">
+        <router-link to="/" class="menu-item q-px-sm text-weight-medium">
+          <img src="~src/assets/Site Images/logo.png" width="120">
+        </router-link>
       </div>
       <div class="flex">
         <div class="menu">
-          <div class="menu-item q-px-sm text-weight-medium">Home</div>
+          <router-link to="/" class="menu-item q-px-sm text-weight-medium">
+            Home
+          </router-link>
         </div>
         <div class="menu">
-          <div class="menu-item q-px-sm text-weight-medium">Restaurants</div>
+          <router-link to="/" class="menu-item q-px-sm text-weight-medium">
+            Restaurants
+          </router-link>
         </div>
         <div class="menu">
-          <div class="menu-item q-px-sm text-weight-medium">Menu</div>
+          <router-link to="/" class="menu-item q-px-sm text-weight-medium">
+            Menu
+          </router-link>
         </div>
         <div class="menu">
-          <div class="menu-item q-px-sm text-weight-medium">About Us</div>
+          <router-link to="/about-us" class="menu-item q-px-sm text-weight-medium">
+            About Us
+          </router-link>
         </div>
         <div class="menu">
-          <div class="menu-item q-px-sm text-weight-medium">Contact Us</div>
+          <router-link to="/contact-us" class="menu-item q-px-sm text-weight-medium">
+            Contact Us
+          </router-link>
         </div>
       </div>
       <div></div>
     </div>
-    <div class="">
-      <q-carousel animated v-model="slide" arrows navigation infinite height="500px">
-        <q-carousel-slide :name="1" img-src="~src/assets/Site Images/Slider-1.jpg" />
-        <q-carousel-slide :name="2" img-src="~src/assets/Site Images/Slider-2.jpg" />
-        <q-carousel-slide :name="3" img-src="~src/assets/Site Images/Slider-3.jpg" />
-        <q-carousel-slide :name="4" img-src="~src/assets/Site Images/Slider-4.jpg" />
-      </q-carousel>
-    </div>
+
     <q-page-container>
       <router-view />
     </q-page-container>
