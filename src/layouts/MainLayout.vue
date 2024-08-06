@@ -2,7 +2,7 @@
   <q-layout view="lHh Lpr lFf">
     <div class="home-header flex justify-between items-center">
       <div>
-        <img src="/src/assets/Site Images/logo.png" width="120">
+        <img src="~src/assets/Site Images/logo.png" width="120">
       </div>
       <div class="flex">
         <div class="menu">
@@ -25,10 +25,10 @@
     </div>
     <div class="">
       <q-carousel animated v-model="slide" arrows navigation infinite height="500px">
-        <q-carousel-slide :name="1" img-src="/src/assets/Site Images/Slider-1.jpg" />
-        <q-carousel-slide :name="2" img-src="/src/assets/Site Images/Slider-2.jpg" />
-        <q-carousel-slide :name="3" img-src="/src/assets/Site Images/Slider-3.jpg" />
-        <q-carousel-slide :name="4" img-src="/src/assets/Site Images/Slider-4.jpg" />
+        <q-carousel-slide :name="1" img-src="~src/assets/Site Images/Slider-1.jpg" />
+        <q-carousel-slide :name="2" img-src="~src/assets/Site Images/Slider-2.jpg" />
+        <q-carousel-slide :name="3" img-src="~src/assets/Site Images/Slider-3.jpg" />
+        <q-carousel-slide :name="4" img-src="~src/assets/Site Images/Slider-4.jpg" />
       </q-carousel>
     </div>
     <q-page-container>
