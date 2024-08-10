@@ -4,7 +4,7 @@ import axios from "axios";
 
 // Create an axios instance
 const api = axios.create({
-  baseURL: "http://localhost:3000", // Your API base URL
+  baseURL: "https://food-api-backend.onrender.com", // Your API base URL
   timeout: 10000, // Optional: Request timeout
   headers: {
     "Content-Type": "application/json",
