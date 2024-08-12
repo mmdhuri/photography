@@ -1,1 +1,0 @@
-import{_ as t}from"./plugin-vue_export-helper.21dcd24c.js";import{v as e,U as c}from"./index.f72472e7.js";const o={},r={class:"q-pa-md",style:{"max-width":"400px"}};function s(a,n){return e(),c("div",r)}var d=t(o,[["render",s]]);export{d as default};

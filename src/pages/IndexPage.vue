@@ -19,7 +19,7 @@
             <img src="~src/assets/Site Images/nature/evening-sun.jpg" width="300" style="height: 300px;">
             <q-card-section>
               <div class="text-h6">Card #{{ index }}</div>
-              <div class="text-subtitle2">by John Doe</div>
+              <div class="text-subtitle2">by John Does</div>
             </q-card-section>
           </q-card>
         </q-intersection>
@@ -53,7 +53,32 @@
       </div>
     </div>
   </section>
-
+  <section class="nature-description-section q-py-xl">
+    <div class="container">
+      <div class="row justify-center align-end items-end">
+        <div class="col-md-4 q-mx-xl">
+          <q-card class="my-card no-border no-border-radius">
+            <img src="~src/assets/Site Images/nature/evening.jpg" style="height: 650px;">
+            <q-card-section>
+              <div class="text-h6">Our Changing Planet</div>
+              <div class="text-subtitle2">by John Doe</div>
+            </q-card-section>
+            <q-card-section class="q-pt-none">
+              {{ lorem }}
+            </q-card-section>
+          </q-card>
+        </div>
+        <div class="col-md-4">
+          <q-card class="my-card no-border no-border-radius">
+            <q-card-section>
+              <div class="text-h6">Our Changing Planet</div>
+              <div class="text-subtitle2">by John Doe</div>
+            </q-card-section>
+          </q-card>
+        </div>
+      </div>
+    </div>
+  </section>
 </template>
 
 <script setup>
