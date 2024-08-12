@@ -1,30 +1,15 @@
 <template>
   <q-layout view="lHh Lpr lFf">
-    <div class="home-header flex justify-between items-center">
+    <div class="home-header flex justify-between items-center container">
       <div>
         <router-link to="/" class="menu-item q-px-sm text-weight-medium">
-          <img src="~src/assets/Site Images/logo.png" width="120">
+          <img src="~src/assets/Site Images/logo.png" width="80">
         </router-link>
       </div>
       <div class="flex">
         <div class="menu">
           <router-link to="/" class="menu-item q-px-sm text-weight-medium">
             Home
-          </router-link>
-        </div>
-        <div class="menu">
-          <router-link to="/" class="menu-item q-px-sm text-weight-medium">
-            Restaurants
-          </router-link>
-        </div>
-        <div class="menu">
-          <router-link to="/" class="menu-item q-px-sm text-weight-medium">
-            Menu
-          </router-link>
-        </div>
-        <div class="menu">
-          <router-link to="/about-us" class="menu-item q-px-sm text-weight-medium">
-            About Us
           </router-link>
         </div>
         <div class="menu">
@@ -35,7 +20,6 @@
       </div>
       <div></div>
     </div>
-
     <q-page-container>
       <router-view />
     </q-page-container>

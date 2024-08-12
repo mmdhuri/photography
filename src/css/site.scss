@@ -1,3 +1,46 @@
+//font sizes
+.font-size-12 {
+  font-size: 12px;
+}
+.font-size-14 {
+  font-size: 14px;
+}
+.font-size-16 {
+  font-size: 16px;
+}
+.font-size-18 {
+  font-size: 18px;
+}
+.font-size-20 {
+  font-size: 20px;
+}
+.font-size-22 {
+  font-size: 22px;
+}
+.font-size-24 {
+  font-size: 24px;
+}
+.font-size-26 {
+  font-size: 26px;
+}
+.font-size-28 {
+  font-size: 28px;
+}
+.font-size-30 {
+  font-size: 30px;
+}
+.font-size-32 {
+  font-size: 32px;
+}
+.font-size-34 {
+  font-size: 34px;
+}
+.font-size-36 {
+  font-size: 36px;
+}
+.font-size-38 {
+  font-size: 38px;
+}
 .home-header {
   background-color: #ffffff;
 }
@@ -5,4 +48,51 @@
 .menu-item {
   text-decoration: none;
   color: #000000;
+}
+
+.landing-banner {
+  background-image: url("/src/assets/Site Images/banner.jpeg");
+  padding: 200px 0px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+/* Custom Container CSS */
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* Breakpoints for custom container width */
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .container {
+    max-width: 1320px;
+  }
 }

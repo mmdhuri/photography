@@ -1,8 +1,8 @@
 {
   "name": "food-ordering-system",
   "version": "0.0.1",
-  "description": "Ecommerce website for food ordering",
-  "productName": "Food Ordering",
+  "description": "Website for Photography",
+  "productName": "Photography",
   "author": "Manish Dhuri <manishdhuri2000@gmail.com>",
   "private": true,
   "scripts": {
