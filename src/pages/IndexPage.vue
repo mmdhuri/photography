@@ -14,7 +14,7 @@
   <section>
     <div class="container">
       <div class="row justify-center q-gutter-sm" style="transform: translateY(-60px);">
-        <q-intersection once transition="scale" class="example-item col-3 q-ma-none">
+        <q-intersection once transition="scale" class="example-item col-md-6 col-lg-3 q-ma-none">
           <q-card flat bordered class="q-ma-sm q-pa-md no-border no-border-radius" style="border-radius: 0px;">
             <img src="~src/assets/Site Images/nature/evening-sun.jpg" width="300" style="height: 300px;">
             <q-card-section>
@@ -23,7 +23,7 @@
             </q-card-section>
           </q-card>
         </q-intersection>
-        <q-intersection once transition="scale" class="example-item col-3 q-ma-none">
+        <q-intersection once transition="scale" class="example-item col-md-6 col-lg-3 q-ma-none">
           <q-card flat bordered class="q-ma-sm q-pa-md no-border no-border-radius" style="border-radius: 0px;">
             <img src="~src/assets/Site Images/nature/sea.jpg" width="300" style="height: 300px;">
             <q-card-section>
@@ -32,7 +32,7 @@
             </q-card-section>
           </q-card>
         </q-intersection>
-        <q-intersection once transition="scale" class="example-item col-3 q-ma-none">
+        <q-intersection once transition="scale" class="example-item col-md-6 col-lg-3 q-ma-none">
           <q-card flat bordered class="q-ma-sm q-pa-md no-border no-border-radius" style="border-radius: 0px;">
             <img src="~src/assets/Site Images/nature/Nature_Tree.jpeg" width="300" style="height: 300px;">
             <q-card-section>
@@ -41,7 +41,7 @@
             </q-card-section>
           </q-card>
         </q-intersection>
-        <q-intersection once transition="scale" class="example-item col-3 q-ma-none">
+        <q-intersection once transition="scale" class="example-item col-md-6 col-lg-3 q-ma-none">
           <q-card flat bordered class="q-ma-sm q-pa-md no-border no-border-radius" style="border-radius: 0px;">
             <img src="~src/assets/Site Images/nature/Rainbow.jpg" width="300" style="height: 300px;">
             <q-card-section>
