@@ -1,35 +1,39 @@
 <template>
   <q-layout view="lHh Lpr lFf">
-    <div class="home-header flex justify-between items-center container">
-      <div>
-        <router-link to="/" class="menu-item q-px-sm text-weight-medium">
-          <img src="~src/assets/Site Images/logo.png" width="80">
-        </router-link>
-      </div>
-      <div class="flex">
-        <div class="menu">
+    <div class="home-header">
+      <div class=" flex justify-between items-center container">
+        <div>
           <router-link to="/" class="menu-item q-px-sm text-weight-medium">
-            Home
+            <img src="~src/assets/Site Images/logo.png" width="80">
           </router-link>
         </div>
-        <div class="menu">
-          <router-link to="/contact-us" class="menu-item q-px-sm text-weight-medium">
-            Contact Us
-          </router-link>
+        <div class="flex">
+          <div class="menu">
+            <router-link to="/" class="menu-item q-px-sm text-weight-medium">
+              Home
+            </router-link>
+          </div>
+          <div class="menu">
+            <router-link to="/contact-us" class="menu-item q-px-sm text-weight-medium">
+              Contact Us
+            </router-link>
+          </div>
         </div>
+        <div></div>
       </div>
-      <div></div>
     </div>
     <q-page-container>
       <router-view />
     </q-page-container>
-
+    <div class="home-footer" align="center">
+      <p class="q-mb-none">{{ currentYear }} Designed & Developed by <a href="mailto:manishdhuri2000@gmail.com">Manish
+          Dhuri</a> </p>
+    </div>
   </q-layout>
 </template>
 
 <script setup>
 import { ref } from 'vue'
-import EssentialLink from 'components/EssentialLink.vue'
 
 defineOptions({
   name: 'MainLayout'
@@ -81,6 +85,7 @@ const linksList = [
   }
 ]
 
+const currentYear = new Date().getFullYear() // Get the current year
 const leftDrawerOpen = ref(false)
 
 function toggleLeftDrawer() {
