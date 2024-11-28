@@ -18,6 +18,11 @@
               Contact Us
             </router-link>
           </div>
+          <div class="menu">
+            <router-link to="/my-videos" class="menu-item q-px-sm text-weight-medium">
+              My Videos
+            </router-link>
+          </div>
         </div>
         <div></div>
       </div>

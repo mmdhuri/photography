@@ -25,6 +25,13 @@ const routes = [
       { path: "", component: () => import("src/components/ContactUs.vue") },
     ],
   },
+  {
+    path: "/my-videos",
+    component: () => import("layouts/MainLayout.vue"),
+    children: [
+      { path: "", component: () => import("src/components/MyVideos.vue") },
+    ],
+  },
 ];
 
 export default routes;
